@@ -1,0 +1,10 @@
+{
+  "seed": 42,
+  "split": {
+    "train": 332252.0,
+    "val": 41532.0,
+    "test": 41532.0
+  },
+  "target": "y_reg = log1p(prev_wage)",
+  "notes": "Filtered certified/full-time/annual when columns exist. Dropped leakage columns if present."
+}
